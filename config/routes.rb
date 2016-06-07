@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-root 'peoples#index'
+root 'people#index'
 end

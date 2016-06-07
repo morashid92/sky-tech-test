@@ -1,7 +1,7 @@
 require 'rails_helper'
 require 'spec_helper'
 
-RSpec.describe PeoplesController do 
+RSpec.describe PeopleController do 
 
 	it 'GET index' do
 		get :index
