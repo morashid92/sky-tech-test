@@ -8,5 +8,10 @@ RSpec.describe PeopleController do
 		assert_template :index
 	end
 
+	it 'GET new' do 
+		get :new
+		assert_template :new
+	end
+
 
 end
