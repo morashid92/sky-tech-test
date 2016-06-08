@@ -22,7 +22,10 @@ class PeopleController < ApplicationController
   end
 
   def show
-  end 
+  end
+
+  def update
+  end
 
 
   private
