@@ -10,9 +10,19 @@ class PeopleController < ApplicationController
     @person = Person.new
   end
 
-	def create
-		@person = Person.new(person_params)
-	end
+  def create
+    @person = Person.new(person_params)
+    respond_to do |format|
+      if @person.save
+        format.html { redirect_to @person, notice: 'Person was successfully created.' }
+      else
+        format.html { render :new }
+      end
+    end
+  end
+
+  def show
+  end 
 
 
   private
