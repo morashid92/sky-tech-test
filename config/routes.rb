@@ -4,3 +4,4 @@ root 'people#index'
 
 resources :people
 end
+  

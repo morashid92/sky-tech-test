@@ -1,0 +1,12 @@
+<!--this form can be called anywhere using render 'form' inside ruby.erb extension -->
+<%= form_for(@person) do |f| %>
+
+	<%= f.label :firstname %>
+	<%= f.text_field :firstname %>
+
+	<%= f.label :lastname %>
+	<%= f.text_field :lastname %>
+
+<%= f.submit %>
+
+<% end %>
