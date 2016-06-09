@@ -23,47 +23,47 @@ Things you may want to cover:
 
 == Set up and running the application:
 
-* fork the application
+* fork or clone the app.
 
-* clone the repostiory with <tt>git clone https://github.com/morashid92/sky-tech-test.git</tt>
+* if forked, clone from your server repostiory with <tt>git clone https://github.com/your-repo-name/sky-tech-test.git</tt>.
 
-* (only if you are contributing)configure new remote upstream<tt>git remote add upstream https://github.com/morashid92/sky-tech-test.git</tt>
+* (only if you are contributing)configure new remote upstream<tt>git remote add upstream https://github.com/morashid92/sky-tech-test.git</tt>.
 
-* run bundle to fetch all libraries <tt>bundle</tt>
+* run bundle to fetch all libraries <tt>bundle</tt>.
 
-* if you are using a mac machine you can type <tt>gem install rb-fsevent</tt> in the root directory to detect file changes with guard
+* if you are using a mac machine you can type <tt>gem install rb-fsevent</tt> in the root directory to detect file changes with guard.
 
-* migrate the database <tt>rake db:migrate</tt>
+* migrate the database <tt>rake db:migrate</tt>.
 
-* (only if you are contributing) switch to a new branch <tt>git checkout -b name_of_new_branch</tt>
+* (only if you are contributing) switch to a new branch <tt>git checkout -b name_of_new_branch</tt>.
 
-* start the rails server <tt>rails s</tt>
+* start the rails server <tt>rails s</tt> and go into the browser to access the webpage on <tt>localhost:3000</tt>.
 
 
 == Edit people using form:
 
-* as soon as you run the app, you will see the home page will all people data, to view json format simply add <tt>.json</tt> at the end of the URL.
+* as soon as you run the app, you will see the home page with people data, to view json format simply add <tt>.json</tt> at the end of the URL.
 
-* to edit any person click on edit next to their name, change their name and click <tt>Update Person</tt>
+* to edit any person click on  <tt>.json</tt> next to their names, change their names and click <tt>Update Person</tt>.
 
-* you will be taken back to the home page and can also view <tt>people.json</tt> to view the edited file
-
-
+* you will be taken back to the home page and can see the changes. You may also check <tt>people.json</tt> to view the edited file in  <tt>json</tt> format.
 
 
 
 
 == Contributing:
 
-* add and commit your changes <tt>git commit -am "Add first draft of some feature"</tt>
+* add and commit your changes <tt>git commit -am "Add first draft of some feature"</tt>.
 
-* fetch the upstream <tt>git pull upstream master</tt>  
+* fetch the upstream <tt>git pull upstream master</tt>.
 
-* push your feature branch to your local repository <tt>git push origin name_of_branch</tt>
+* push your feature branch to your local repository <tt>git push origin name_of_branch</tt>.
 
-* send pull request through main github repository by comparing <tt>name_of_branch</tt> and <tt>master</tt>
+* send pull request through main github repository by comparing <tt>name_of_branch</tt> and <tt>master</tt>.
 
 
 == Testing:
 
-* run guard by simply entering guard in terminal <tt>guard</tt>. This way guard will detect file changes and run the current test you have saved. If you hit enter, it will run all tests in your application. 
+* you can run the tests by running guard-rspec by simply entering <tt>guard</tt> in the terminal window in the  <tt>root</tt> folder of the application.
+
+* guard-rspec will detect file changes and run the current test you have saved or alternatively, if you want to run all tests just hit <tt>Enter</tt>.
