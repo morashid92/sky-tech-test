@@ -44,7 +44,7 @@ Things you may want to cover:
 
 * as soon as you run the app, you will see the home page with people data, to view json format simply add <tt>.json</tt> at the end of the URL.
 
-* to edit any person click on  <tt>.json</tt> next to their names, change their names and click <tt>Update Person</tt>.
+* to edit any person click on  <tt>edit</tt> next to their names, change their names and click <tt>Update Person</tt>.
 
 * you will be taken back to the home page and can see the changes. You may also check <tt>people.json</tt> to view the edited file in  <tt>json</tt> format.
 
